@@ -41,9 +41,3 @@ sayHello((userName) => {return "Hello " + userName;});
 sayHello((userName) => {
   console.log("Hello " + userName);
 });
-
-
-
-
-
-
