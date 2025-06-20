@@ -27,7 +27,7 @@ const person = {
 };
 
 for (let key in person) {
-  // console.log(`${key}: ${person[key]}`);
+  console.log(`${key}: ${person[key]}`);
 }
 
 // for...in loop example (for iterating over array indices)
@@ -39,7 +39,7 @@ for (let key in arry) {
 // for...of loop example (for iterating over iterable objects like arrays)
 const fruits = ["Apple", "Banana", "Cherry"];
 for (let fruit of fruits) {
-  // console.log(fruit);
+  console.log(fruit);
 }
 
 

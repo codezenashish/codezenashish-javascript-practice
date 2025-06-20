@@ -50,12 +50,23 @@ function f6() {
 
 f6(12, 14);
 
-
-// 
+//
 function f7() {
   for (let k in arguments) {
-    console.log(k, arguments[0]);
+    // console.log(k, arguments[0]);
   }
 }
 
 f7(12, 14, 50, 70, 60);
+
+// constructor function
+
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+  console.log(this) 
+}
+
+let p1 = new person('amit',21)
+
+
