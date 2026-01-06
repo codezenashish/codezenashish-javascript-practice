@@ -17,7 +17,7 @@ console.log(createStr.charAt(0));
 console.log(createStr.indexOf("h"));
 console.log(createStr[0]);
 
-// ? charAt()  mil nhi rha tha ye mujko 
+// ? charAt()  mil nhi rha tha ye mujko
 
 let str = "Lorem Ipsum is simply dummy text of the printing";
 console.log(str.charAt("0"));
@@ -75,4 +75,4 @@ console.log(holdStr);
 
 let repStr = "Ashish";
 let zx = repStr.replace("Ashish", "Honey");
-console.log(zx)
+console.log(zx);
