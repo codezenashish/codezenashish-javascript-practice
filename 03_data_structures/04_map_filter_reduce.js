@@ -61,7 +61,7 @@ let bz = [6, 7, 8, 9];
 let cz = [10, 11, 12];
 
 let addArray = [...az, ...bz, ...cz];
-console.log(addArray)
+console.log(addArray);
 
-let ras = az.concat(az,bz)
-console.log(ras)
+let ras = az.concat(az, bz);
+console.log(ras);
